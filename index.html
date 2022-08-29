@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <!--meta para auxiliar na abertura do site em devices de diferentes tamanhos-->
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+        <title>MBPedroso Website</title>
+        <!--O código abaixo serve para nivelar algumas diferenças entre browsers.-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--Fontes utilizadas-->
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <!--Esse logo foi criado com a fonte "Merry Couple"-->
+                <!--Link da fonte: https://www.dafont.com/pt/merrycouple.font?psize=l&back=new-->
+                <img src="img/LOGO.PNG" alt="foto1">
+            </div>
+
+            <button class="nav-toggle" aria-lable="toggle navigation">
+                <spam class="hamburguer"></spam>
+            </button>
+            <nav class="nav">
+                <!--Utilizando 2 underlines para demonstrar que isso é uma sublista do "nav"-->
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about-me" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Introdução-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Olá, meu nome é <strong>Matheus Pedroso</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Python And Data Science</p>
+            <img src="img/imagem_teste.jpg" alt="foto2" class="intro__img">
+        </section>
+
+        <!--Meus serviços-->
+
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">My Work</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>aaaa aaaaaa aaaa aaaaaaaaaaa aaaaa aaaa </p>
+                </div>
+
+                <div class="service">
+                    <h3>E-commerce</h3>
+                    <p>aaaa aaaaaa aaaa aaaaaaaaaaa aaaaa aaaa aa</p>
+                </div>
+                <div class="service">
+                    <h3>WordPress</h3>
+                    <p>aaaa aaaaaa aaaa aaaaaaaaaaa aaaaa aaaa </p>
+                </div>
+            </div>
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!--Sobre mim-->
+
+        <section class="about-me" id="about-me">
+            <h2 class="section__title section__title--about">Who am i</h2>
+            <p class="section__subtitle section__subtitle--about">Data Scientist</p>
+
+            <div class="about-me__body">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione eveniet reprehenderit laudantium dolorum tenetur minima quaerat! Atque eius temporibus voluptates modi, id omnis ullam, corporis ducimus, veniam accusamus mollitia porro?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupidi  tate ex dignissimos eligendi asperiores, nam aliquid tempora eum atque ullam doloribus? Deserunt minus sint natus eum, deleniti quis incidunt alias cupiditate!</p>
+            </div>
+            <img src="img/imagem_teste.jpg" alt="foto3" class="about-me__img">
+        </section>
+
+        <!--Meu trabalho-->
+
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">Alguns trabalhos que eu já fiz</p>
+
+            <div class="portfolio">
+
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/imagem_teste.jpg" alt="foto4" class="portfolio__img">
+                </a>
+
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/imagem_teste.jpg" alt="foto5" class="portfolio__img">
+                </a>
+
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/imagem_teste.jpg" alt="foto6" class="portfolio__img">
+                </a>
+
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/imagem_teste.jpg" alt="foto7" class="portfolio__img">
+                </a>
+
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/imagem_teste.jpg" alt="foto4" class="portfolio__img">
+                </a>
+
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/imagem_teste.jpg" alt="foto8" class="portfolio__img">
+                </a>
+
+                <a href="#" class="portfolio__item">
+                    <img src="img/imagem_teste.jpg" alt="foto9" class="portfolio__img">
+                </a>
+
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/imagem_teste.jpg" alt="foto10" class="portfolio__img">
+                </a>
+
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/imagem_teste.jpg" alt="foto11" class="portfolio__img">
+                </a>
+
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/imagem_teste.jpg" alt="foto12" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        <!--Rodapé-->
+        <footer class="footer">
+            <a href="mailto:matheusbarbosa039@gmail.com" class="footer__link">matheusbarbosa039@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/MBpedroso">
+                        <i class="fab fa-github"></i>
+                    </a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/matheus-pedroso-270ba2182/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <!--meta para auxiliar na abertura do site em devices de diferentes tamanhos-->
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+        <title>MBPedroso Website</title>
+        <!--O código abaixo serve para nivelar algumas diferenças entre browsers.-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--Fontes utilizadas-->
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/imagem_teste.jpg" alt="foto1">
+            </div>
+
+            <button class="nav-toggle" aria-lable="toggle navigation">
+                <spam class="hamburguer"></spam>
+            </button>
+            <nav class="nav">
+                <!--Utilizando 2 underlines para demonstrar que isso é uma sublista do "nav"-->
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about-me" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                The title <strong>of my project</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">dsadasdasdasdas</p>
+            <img src="img/imagem_teste.jpg" alt="" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, sint minima error dicta, amet odio labore adipisci deserunt aut architecto ex provident pariatur. Deserunt ipsam repudiandae ex cupiditate, vitae ratione?</p>
+            <img src="img/imagem_teste.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, ipsa sequi. Doloribus, non ut temporibus debitis sequi laudantium quo ex? In cupiditate tempore corrupti error inventore sequi ut provident animi?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, harum impedit. Quia maiores vero eveniet illo obcaecati est dolore omnis sed corrupti. Assumenda ipsum molestias fugit iusto, possimus consectetur vero.</p>
+        </div>
+
+
+        
+        <!--Rodapé-->
+        <footer class="footer">
+            <a href="mailto:matheusbarbosa039@gmail.com" class="footer__link">matheusbarbosa039@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/MBpedroso">
+                        <i class="fab fa-github"></i>
+                    </a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/matheus-pedroso-270ba2182/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
